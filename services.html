@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Services - YN Web & Media</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f8f8;
+            color: #222;
+        }
+
+        header {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            color: #ff6f61;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #222;
+            margin-left: 25px;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ff6f61;
+        }
+
+        .hero {
+            background-color: #f0f0f0;
+            padding: 100px 20px 60px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            color: #222;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #555;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .section {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .section h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .service-card {
+            background-color: #fff;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .service-card:hover {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        }
+
+        .service-card h4 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            color: #ff6f61;
+        }
+
+        .service-card p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #222;
+            color: #ccc;
+            text-align: center;
+            padding: 20px;
+            margin-top: 80px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>YN Web & Media</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="a-propos.html">À propos</a>
+            <a href="services.html">Services</a>
+            <a href="realisations.html">Réalisations</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Nos Services</h2>
+        <p>Des solutions digitales créatives pour mettre en valeur votre entreprise.</p>
+    </div>
+
+    <div class="section">
+        <h3>Ce que nous proposons</h3>
+        <div class="services-grid">
+            <div class="service-card">
+                <h4>Création de sites web</h4>
+                <p>Sites vitrines, boutiques en ligne, landing pages : nous créons des sites performants et adaptés à vos besoins.</p>
+            </div>
+
+            <div class="service-card">
+                <h4>Identité visuelle & branding</h4>
+                <p>Logos, chartes graphiques, visuels professionnels : développez une image de marque forte et cohérente.</p>
+            </div>
+
+            <div class="service-card">
+                <h4>Contenu vidéo</h4>
+                <p>Spots publicitaires, vidéos promotionnelles, teasers : captez l’attention de votre audience avec du contenu dynamique.</p>
+            </div>
+
+            <div class="service-card">
+                <h4>Communication digitale</h4>
+                <p>Stratégie de communication, réseaux sociaux, campagnes en ligne : améliorez votre présence digitale.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 YN Web & Media — Tous droits réservés.
+    </footer>
+
+</body>
+</html>
